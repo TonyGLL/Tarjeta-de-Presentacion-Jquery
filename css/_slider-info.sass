@@ -1,0 +1,70 @@
+.slider_info
+    text-align: center
+    overflow: hidden
+    padding: 20px
+    z-index: 1000
+    position: relative
+    .informacion
+        width: 100%
+        .nombre
+            color: #444
+            font-size: 38px
+            line-height: 38px
+            font-weight: 600
+            margin-bottom: 16px
+        .trabajo
+            color: #55acee
+            font-size: 18px
+            line-height: 18px
+            margin-bottom: 16px
+        .pais
+            color: #8d8d8d
+            font-size: 14px
+            line-height: 14px
+            img
+                position: relative
+                top: 3px
+                margin-right: 10px
+        .subtitulo
+            color: #444
+            font-size: 18px
+            line-height: 24px
+            margin-bottom: 16px
+        .texto
+            color: #55acee
+            font-size: 18px
+            line-height: 24px
+    article
+        width: 100%
+        overflow: hidden
+        position: relative
+        .slide
+            background: #fff
+            width: 100%
+            left: 100%
+            position: absolute
+            padding: 20px 80px
+    .flecha-info
+        font-size: 35px
+        line-height: 35px
+        color: #e6e6e6
+        position: absolute
+        top: 50%
+        z-index: 1000
+        &:hover
+            color: #6ed279
+    .anterior
+        left: 20px
+    .siguiente
+        right: 20px
+    .botones
+        width: 100%
+        span
+            width: 14px
+            height: 14px
+            display: inline-block
+            margin: 0 10px
+            border-radius: 50%
+            background: #e6e6e6
+        .active
+            background: #6ed279
